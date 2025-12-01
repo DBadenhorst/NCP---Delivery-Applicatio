@@ -1,0 +1,126 @@
+{
+	"id": "c93a381c-6d92-49ec-9fab-3297cb198195",
+	"createdAt": "2023-11-21T04:44:38.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/DBadenhorst/NCP---Delivery-Applicatio.git"
+	},
+	"name": "Process 5",
+	"description": "Process 5 Development Package",
+	"ver": "25.12.1.1218",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "e1cfdc10-636c-438f-bea3-4ba0fe3570b7",
+			"application": "input_textandreset",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "8e5edcf9-ef31-4bc6-9ecc-e1d50029e223",
+			"application": "input_validator",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "4150c942-0ae3-4e4b-81eb-a65387a80a96",
+			"application": "p5_filling_v4",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "04f075c0-88d0-4f71-a001-0d068249c30a",
+			"application": "core_extensions",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "a98c4ddc-85f7-462c-b8bd-74f9f6f05954",
+			"name": "APP_PACKED_05",
+			"description": "Read from and Writing to Siemens PLC's",
+			"apiGroup": "039b6863-48b5-4e4a-88b4-92072d0c1289"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "fa5c8944-a439-4eb6-a1d8-2968bd4af10c",
+			"name": "ReadValuesFromPLC",
+			"description": "Read Values from PLC"
+		},
+		{
+			"id": "f6833eb2-fe34-4767-862b-26e53a131f32",
+			"name": "ResponseHandler",
+			"description": null
+		},
+		{
+			"id": "f4ad8bc6-5316-45a0-b7e2-1091d0a34c56",
+			"name": "AuditTrailService",
+			"description": "Audit Trail Service"
+		},
+		{
+			"id": "e2afeb5e-40bd-46dd-87ad-8a1f5595362e",
+			"name": "WriteWeightsToPLC",
+			"description": "Write Weight to PLC and wait for a Response"
+		},
+		{
+			"id": "d1c4cc8a-6f56-4b93-a824-897bfab3a87b",
+			"name": "ReprocessSapConfirmation",
+			"description": null
+		},
+		{
+			"id": "8214578b-a688-489b-a3f8-2f6d06f9cf1f",
+			"name": "WriteConfirmationToPLC",
+			"description": "Confirm filling on PLC"
+		},
+		{
+			"id": "6da40055-2f2d-4cb7-8906-dec687d13840",
+			"name": "WriteWeightsToPLC_2",
+			"description": null
+		},
+		{
+			"id": "104eb2a2-a559-4f9f-a67c-098a3f49d746",
+			"name": "ReadValuesFromPLC_2",
+			"description": null
+		},
+		{
+			"id": "08ca857d-d35e-42db-8a8d-bdcf1cd8650c",
+			"name": "WriteConfirmationToPLC_2",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+			"name": "app_packed_05",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

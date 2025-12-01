@@ -1,0 +1,20 @@
+{
+	"id": "f6833eb2-fe34-4767-862b-26e53a131f32",
+	"createdAt": "2023-10-31T08:21:05.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "ResponseHandler",
+	"ver": "23.11.15.1556",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}

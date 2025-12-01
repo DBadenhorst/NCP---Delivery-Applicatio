@@ -1,0 +1,63 @@
+{
+	"id": "6da40055-2f2d-4cb7-8906-dec687d13840",
+	"createdAt": "2024-06-05T05:32:51.000Z",
+	"createdBy": "admin",
+	"globalScripts": [
+		{
+			"id": "f4ad8bc6-5316-45a0-b7e2-1091d0a34c56",
+			"name": "app_packed_05 - AuditTrailService",
+			"contextname": "AuditTrailService"
+		},
+		{
+			"id": "f6833eb2-fe34-4767-862b-26e53a131f32",
+			"name": "app_packed_05 - ResponseHandler",
+			"contextname": "ResponseHandler"
+		}
+	],
+	"externalModules": [
+		{
+			"id": "fb8483d3-cd97-4120-af93-a4eb43651dab",
+			"name": "lodash",
+			"contextname": "lodash",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/lodash"
+		},
+		{
+			"id": "47f7aa01-2da7-4a12-8d8e-cef3bcf6406a",
+			"name": "nodes7",
+			"contextname": "nodeS7",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/nodes7"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "73a1b1f7-9bcb-4c28-8090-fcc4123ef2ad",
+			"name": "scales_audit",
+			"contextname": "scales_audit"
+		},
+		{
+			"id": "dd7212d2-5c82-4d48-a812-cc458d20c984",
+			"name": "scales_data",
+			"contextname": "scales_data"
+		}
+	],
+	"apis": [
+		{
+			"id": "bc6fcd99-8a08-4880-f59d-40a8d6197a3a",
+			"parent": "e98b8fad-3116-4817-9084-97819410f6a1",
+			"name": "/Move to Filling",
+			"contextname": "sap_move_to_filling",
+			"method": "POST"
+		}
+	],
+	"name": "WriteWeightsToPLC_2",
+	"ver": "24.6.7.943",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}

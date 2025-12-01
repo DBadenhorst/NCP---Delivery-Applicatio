@@ -1,0 +1,50 @@
+{
+	"id": "104eb2a2-a559-4f9f-a67c-098a3f49d746",
+	"createdAt": "2024-06-05T05:32:03.000Z",
+	"createdBy": "admin",
+	"globalScripts": [
+		{
+			"id": "f6833eb2-fe34-4767-862b-26e53a131f32",
+			"name": "app_packed_05 - ResponseHandler",
+			"contextname": "ResponseHandler"
+		},
+		{
+			"id": "f4ad8bc6-5316-45a0-b7e2-1091d0a34c56",
+			"name": "app_packed_05 - AuditTrailService",
+			"contextname": "AuditTrailService"
+		}
+	],
+	"externalModules": [
+		{
+			"id": "fb8483d3-cd97-4120-af93-a4eb43651dab",
+			"name": "lodash",
+			"contextname": "lodash",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/lodash"
+		},
+		{
+			"id": "47f7aa01-2da7-4a12-8d8e-cef3bcf6406a",
+			"name": "nodes7",
+			"contextname": "nodeS7",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/nodes7"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "dd7212d2-5c82-4d48-a812-cc458d20c984",
+			"name": "scales_data",
+			"contextname": "scales_data"
+		}
+	],
+	"apis": [],
+	"name": "ReadValuesFromPLC_2",
+	"ver": "24.6.5.945",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}

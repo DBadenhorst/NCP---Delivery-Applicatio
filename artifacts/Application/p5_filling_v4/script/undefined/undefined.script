@@ -1,0 +1,11 @@
+.sapMBtnContent {
+  margin-left: 10px;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.btn-group {
+  column-gap: 10px !important;
+}

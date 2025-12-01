@@ -1,0 +1,68 @@
+{
+	"id": "8214578b-a688-489b-a3f8-2f6d06f9cf1f",
+	"createdAt": "2023-11-06T07:02:38.000Z",
+	"createdBy": "admin",
+	"globalScripts": [
+		{
+			"id": "f6833eb2-fe34-4767-862b-26e53a131f32",
+			"name": "app_packed_05 - ResponseHandler",
+			"contextname": "ResponseHandler"
+		},
+		{
+			"id": "f4ad8bc6-5316-45a0-b7e2-1091d0a34c56",
+			"name": "app_packed_05 - AuditTrailService",
+			"contextname": "AuditTrailService"
+		}
+	],
+	"externalModules": [
+		{
+			"id": "47f7aa01-2da7-4a12-8d8e-cef3bcf6406a",
+			"name": "nodes7",
+			"contextname": "nodeS7",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/nodes7"
+		},
+		{
+			"id": "fb8483d3-cd97-4120-af93-a4eb43651dab",
+			"name": "lodash",
+			"contextname": "lodash",
+			"path": "E:\\Planet9\\settings\\CustomNPM/node_modules/lodash"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "f06ad4d3-efc3-4e86-836b-9e489dadda2b",
+			"name": "scales_audit",
+			"contextname": "scales_audit"
+		},
+		{
+			"id": "73a1b1f7-9bcb-4c28-8090-fcc4123ef2ad",
+			"name": "scales_audit",
+			"contextname": "scales_audit"
+		},
+		{
+			"id": "dd7212d2-5c82-4d48-a812-cc458d20c984",
+			"name": "scales_data",
+			"contextname": "scales_data"
+		}
+	],
+	"apis": [
+		{
+			"id": "441f8e0a-e7f2-4c2c-95c5-81c360bfc4ee",
+			"parent": "c55d9697-4048-44d6-b7df-f3b08480fb50",
+			"name": "/Confirm Filling",
+			"contextname": "sap_confirm_filling",
+			"method": "POST"
+		}
+	],
+	"name": "WriteConfirmationToPLC",
+	"ver": "24.3.26.1124",
+	"description": "Confirm filling on PLC",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}

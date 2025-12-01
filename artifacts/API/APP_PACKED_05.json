@@ -1,0 +1,330 @@
+{
+	"id": "a98c4ddc-85f7-462c-b8bd-74f9f6f05954",
+	"createdAt": "2023-10-30T13:13:08.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "3e14212c-263d-4fad-83d7-7b4885d4e6fd",
+			"method": "POST",
+			"path": "/read-values-from-plc",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "36f86dfd-7432-486f-bf28-e7b9cc0b83d0",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "ReadValuesFromPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "fa5c8944-a439-4eb6-a1d8-2968bd4af10c",
+			"enableCredentials": false,
+			"enableTrace": false,
+			"captureBody": false,
+			"example": [
+				"==OBJECT STRING==",
+				"{\r",
+				"  \"scale\": \"DEMO\"\r",
+				"}"
+			]
+		},
+		{
+			"id": "e2db2578-fe0b-461f-c178-9830078a9de9",
+			"method": "POST",
+			"path": "/write-weights-to-plc",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "WriteWeightsToPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "e2afeb5e-40bd-46dd-87ad-8a1f5595362e"
+		},
+		{
+			"id": "bb4741e2-b16b-4455-f401-79cf6efc2ca4",
+			"method": "POST",
+			"path": "/write-confirmation-to-plc",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "c626c516-7739-4193-91ca-fd89404af341",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "WriteConfirmationToPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "8214578b-a688-489b-a3f8-2f6d06f9cf1f"
+		},
+		{
+			"id": "4656505c-3dfd-4e12-fa60-7a67c5ccc640",
+			"method": "POST",
+			"path": "/read-values-from-plc-2",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "cb495774-6a56-4036-cf4f-177fbfd6cf2b",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "ReadValuesFromPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "104eb2a2-a559-4f9f-a67c-098a3f49d746"
+		},
+		{
+			"id": "0027f0a7-ffff-4a25-e024-d949fc9a0a41",
+			"method": "POST",
+			"path": "/write-confirmation-to-plc-2",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "af4c9286-6d98-4038-9d6e-e69911e16449",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "WriteConfirmationToPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "08ca857d-d35e-42db-8a8d-bdcf1cd8650c"
+		},
+		{
+			"id": "09b47462-8eeb-4ae9-b44f-2a637f8f5d50",
+			"method": "POST",
+			"path": "/write-weights-to-plc-2",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"id": "6682e398-170f-4f54-be63-cd1b87ba2a32",
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"content": []
+				}
+			],
+			"content": [
+				{
+					"objectType": "string",
+					"items": [],
+					"name": "WriteWeightsToPlcRequest"
+				}
+			],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "6da40055-2f2d-4cb7-8906-dec687d13840"
+		}
+	],
+	"definitions": [
+		{
+			"id": "6b23299f-2e5e-401e-e4fe-4168d58b18cc",
+			"name": "ReadValuesFromPlcRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "19a0c4f0-8706-4f35-a7dc-ffbc71dec91f",
+					"name": "scale",
+					"objectType": "string",
+					"description": "Scale Name",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "3b2155fb-5de6-42c2-c4c6-1fac09134236",
+			"name": "WriteWeightsToPlcRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "85790796-ec67-467e-9825-00cd4a3357a2",
+					"name": "scale",
+					"objectType": "string",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "53b3cf43-10ad-4326-a458-cf466e1c7912",
+					"name": "equipmentNumber",
+					"objectType": "string",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "484aeb60-afc6-4f0f-80b5-6f02bc7593b8",
+					"name": "minWeight",
+					"objectType": "number",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "88ec9a82-c03f-4843-d9a6-62e94464fb7f",
+					"name": "maxWeight",
+					"objectType": "number",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		},
+		{
+			"id": "f5eb54e8-dee1-4d48-838a-80fc9c5aaa11",
+			"name": "WriteConfirmationToPlcRequest",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "f91fc50b-ce75-434d-ecc7-3152f336de0d",
+					"name": "scale",
+					"objectType": "string",
+					"description": "",
+					"required": true,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "APP_PACKED_05",
+	"endpoint": "/public/serverscript/app_packed_05",
+	"ver": "24.6.5.1122",
+	"version": "1.0",
+	"description": "Read from and Writing to Siemens PLC's",
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": "",
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": true,
+	"tlsAllowUntrusted": true,
+	"useOwnProcess": false,
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195",
+	"apiGroup": "039b6863-48b5-4e4a-88b4-92072d0c1289",
+	"apiFormat": 0,
+	"roles": []
+}

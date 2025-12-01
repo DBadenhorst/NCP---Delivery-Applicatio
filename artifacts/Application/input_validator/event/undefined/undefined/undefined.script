@@ -1,0 +1,2 @@
+<p><span style="font-family: &quot;Courier New&quot;; font-size: 14px;">enum CheckType { "Required" }
+<br><br>function validate(validators: any[]) {}</span></p><ul><li><span style="font-family: &quot;Courier New&quot;; font-size: 14px;">​e.g. o</span><span style="font-size: 14px;"><span style="font-family: &quot;Courier New&quot;;">Validator.validate([[&lt;input_name&gt;, [oValidator.CheckType.Required]]);</span></span></li></ul><p><span style="font-family: &quot;Courier New&quot;; font-size: 14px;">function hasErrors() {}</span><br></p>

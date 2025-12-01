@@ -1,0 +1,26 @@
+{
+	"id": "f4ad8bc6-5316-45a0-b7e2-1091d0a34c56",
+	"createdAt": "2023-11-30T10:43:13.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "f06ad4d3-efc3-4e86-836b-9e489dadda2b",
+			"name": "scales_audit",
+			"contextname": "scales_audit"
+		}
+	],
+	"apis": [],
+	"name": "AuditTrailService",
+	"ver": "23.12.8.1128",
+	"description": "Audit Trail Service",
+	"content": "file:///content.js",
+	"useAsGlobalScript": true,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "20c00a9a-dfe7-4262-807c-11ef61a2448d",
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}

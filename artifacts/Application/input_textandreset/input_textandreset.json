@@ -1,0 +1,329 @@
+{
+	"id": "e1cfdc10-636c-438f-bea3-4ba0fe3570b7",
+	"createdAt": "2023-11-06T13:31:12.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "55629142-230c-47a3-9f7d-2f04c0f3d20c",
+			"fieldName": "container",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "c599639d-aea6-4078-ca0e-dbeb649a0952",
+					"fieldName": "container_body",
+					"fieldParent": "55629142-230c-47a3-9f7d-2f04c0f3d20c",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "justifyContent",
+							"grouping": "Properties",
+							"value": "SpaceBetween",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+							"fieldName": "input",
+							"fieldParent": "c599639d-aea6-4078-ca0e-dbeb649a0952",
+							"fieldType": "sap.m.Input",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "6cd55b21-f2cb-4157-eb04-7475c3f7b49c",
+							"fieldName": "clear_button",
+							"fieldParent": "c599639d-aea6-4078-ca0e-dbeb649a0952",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Reject",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMarginBegin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://reset",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/clear_button/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "a4edf466-e75f-49a3-8d42-ea049e2e60f2",
+					"fieldName": "namespace",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/namespace.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": {
+		"icon": "/media/root/Icons/text-box.png",
+		"documentation": "<div><span style=\"font-size: 14px;\"><span style=\"font-family: &quot;Courier New&quot;;\"><span style=\"color: rgb(0, 0, 255);\">function</span><span style=\"color: rgb(0, 0, 0);\">&nbsp;setValue(value:&nbsp;</span><span style=\"color: rgb(0, 0, 255);\">string</span><span style=\"color: rgb(0, 0, 0);\">) {}</span></span></span></div><div><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\"><br></span></div><div><span style=\"color: rgb(0, 0, 255); font-size: 14px; font-family: &quot;Courier New&quot;;\">function</span><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\">&nbsp;getValue():&nbsp;</span><span style=\"color: rgb(0, 0, 255); font-size: 14px; font-family: &quot;Courier New&quot;;\">string</span><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\">&nbsp;{}</span></div><div><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\"><br></span></div><div><span style=\"color: rgb(0, 0, 255); font-size: 14px; font-family: &quot;Courier New&quot;;\">function</span><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\">&nbsp;setError(message?:&nbsp;</span><span style=\"color: rgb(0, 0, 255); font-size: 14px; font-family: &quot;Courier New&quot;;\">string</span><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\">) {}</span></div><div><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\"><br></span></div><div><span style=\"color: rgb(0, 0, 255); font-size: 14px; font-family: &quot;Courier New&quot;;\">function</span><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\">&nbsp;clearError() {}</span></div><div><span style=\"color: rgb(0, 0, 0); font-size: 14px; font-family: &quot;Courier New&quot;;\"><br></span></div><div><span style=\"font-size: 14px;\"><span style=\"font-family: &quot;Courier New&quot;;\"><span style=\"color: rgb(0, 0, 255);\">function</span><span style=\"color: rgb(0, 0, 0);\">&nbsp;setFocus() {}</span></span></span></div><div><span style=\"font-size: 14px;\"><span style=\"font-family: &quot;Courier New&quot;;\"><span style=\"color: rgb(0, 0, 0);\"><br></span></span></span></div><div><span style=\"font-size: 14px;\"><span style=\"font-family: &quot;Courier New&quot;;\"><span style=\"color: rgb(0, 0, 255);\">function</span><span style=\"color: rgb(0, 0, 0);\">&nbsp;setVisible(state?:&nbsp;</span><span style=\"color: rgb(0, 0, 255);\">boolean</span><span style=\"color: rgb(0, 0, 0);\">) {}&nbsp;</span></span></span></div><ul><li><span style=\"font-size: 14px;\"><span style=\"font-family: &quot;Courier New&quot;;\"><span style=\"color: rgb(0, 0, 0);\">If state is left empty, the default state will always be true making the component visible.<br></span></span></span></li></ul><div><span style=\"color: rgb(0, 0, 0); font-family: &quot;Courier New&quot;; font-size: 14px;\">​<br></span></div>",
+		"containerId": null,
+		"attributes": [
+			{
+				"id": "c15a1244-4b91-4f78-a12a-e4a4c6ff43dd",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "Events",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "05f51e71-b7e3-4a10-a945-86aa3310a408",
+				"objectType": "attribute",
+				"fieldId": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+				"parent": "c15a1244-4b91-4f78-a12a-e4a4c6ff43dd",
+				"attribute": {
+					"ATTRIBUTE": "submit",
+					"GROUPING": "Events",
+					"PARENT": "Events"
+				},
+				"original": {
+					"FIELD_ID": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+					"ATTRIBUTE": "submit",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.Input"
+			},
+			{
+				"id": "994ed12e-5984-4c38-a106-dead8de383c8",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "Properties",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "2212b255-2188-4f2b-e7e6-264adce82eda",
+				"objectType": "attribute",
+				"fieldId": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+				"parent": "994ed12e-5984-4c38-a106-dead8de383c8",
+				"attribute": {
+					"ATTRIBUTE": "value",
+					"GROUPING": "Properties",
+					"PARENT": "Properties"
+				},
+				"original": {
+					"FIELD_ID": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+					"ATTRIBUTE": "value",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Input"
+			},
+			{
+				"id": "ad518c17-ac35-4aec-ca7d-408d092e70a6",
+				"objectType": "attribute",
+				"fieldId": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+				"parent": "994ed12e-5984-4c38-a106-dead8de383c8",
+				"attribute": {
+					"ATTRIBUTE": "placeholder",
+					"GROUPING": "Properties",
+					"PARENT": "Properties"
+				},
+				"original": {
+					"FIELD_ID": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+					"ATTRIBUTE": "placeholder",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Input"
+			},
+			{
+				"id": "da483fa1-9b64-40b0-d7d7-0a168ed1d288",
+				"objectType": "attribute",
+				"fieldId": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+				"parent": "994ed12e-5984-4c38-a106-dead8de383c8",
+				"attribute": {
+					"ATTRIBUTE": "required",
+					"GROUPING": "Properties",
+					"PARENT": "Properties"
+				},
+				"original": {
+					"FIELD_ID": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+					"ATTRIBUTE": "required",
+					"VALUE_TABLE": 1,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Input"
+			},
+			{
+				"id": "41421bea-2d46-4bd0-df74-848f158850d9",
+				"objectType": "attribute",
+				"fieldId": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+				"parent": "994ed12e-5984-4c38-a106-dead8de383c8",
+				"attribute": {
+					"ATTRIBUTE": "type",
+					"GROUPING": "Properties",
+					"PARENT": "Properties"
+				},
+				"original": {
+					"FIELD_ID": "b91886b1-d350-4c3c-d116-ee418797ea0e",
+					"ATTRIBUTE": "type",
+					"VALUE_TABLE": 305,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Input"
+			}
+		],
+		"topLevelObjects": [
+			"sap.m.VBox"
+		],
+		"containers": []
+	},
+	"ver": "23.11.21.95",
+	"application": "input_textandreset",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [],
+	"package": "c93a381c-6d92-49ec-9fab-3297cb198195"
+}
